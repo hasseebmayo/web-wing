@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-main {
+    height: 400px;
+    width: 100%;
+    background-image: url('../images/footer_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+    width: 70%;
+    position: relative;
+    height: 100%;
+
+}
+.contact-container {
+    width:29%;
+    color: white;
+    
+}
+.contact-container h1 {
+    font-size: 50px;
+    padding: 15px;
+    color: #f2db18;
+    margin-bottom: 30px;
+
+}
+.contactus-main {
+    display: flex;
+    margin-top: 30px;
+    /* width: 40%; */
+}
+.icon {
+    font-size: 28px; 
+    padding: 5px; 
+      
+}
+.location {
+    width: 35%;
+}
+.location i+p {
+    margin-top: 12px;
+}
+.mails {
+   
+    width: 43%;
+    margin-left: 8px;
+}
+.mails a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.links-of-mail a:first-child {
+    display: inline-block;
+    margin-top: 10px;
+}
+.phone i+p {
+    margin-top: 12px;
+}
+.phone p {
+    padding: 3px;
+}
+.phone {
+    margin-left: 8px;
+    
+  
+}
+.menu-links {
+    list-style: none;
+    padding: 7px 0;
+
+}
+.menu-linksbar h2 {
+    margin-bottom: 15px;
+    color: white;
+    
+}
+.menu-links a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+/* .menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.menu-linksbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+.menu-links a:hover {
+    color: #f2db18;
+}
+.recent-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 23px;
+}
+.recent-links {
+    list-style: none;
+    padding: 7px 0;
+}
+.recent-links a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.recent-posts h2 {
+    margin-bottom: 12px;
+    color: white;
+
+}
+.recent-links a:hover {
+    color: #f2db18;
+}
+.newsletter {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 23px;
+   
+    justify-content: center;
+    flex-direction: column;
+}
+.inpt-btn {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.inpt-btn input {
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    height: 29px;
+    margin: 10px 0;
+    
+
+}
+.inpt-btn button {
+    height: 30px;
+    width: 58%;
+    background-color: #f2db18;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin: 7px 0;
+}
+.newsletter h2 {
+    margin-bottom: 57px;
+    color: white;
+}
+.inpt-btn button:hover {
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
+.location:hover {
+    color: #f2db18;
+}
+.links-of-mail a:hover {
+    color: #f2db18;
+
+}
+.mails i:hover {
+    color: #f2db18;
+}
+.phone i:hover {
+    color: #f2db18;
+}
+.phone p:hover {
+    color: #f2db18;
+}
+.icons {
+    
+    
+   position: absolute;
+   bottom: 15px;
+  
+
+}
+.icons i:hover {
+    color: #f2db18;
+}
