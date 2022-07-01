@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.firstBar {
+    display: flex;
+
+    height: 50px;
+    width: 100%;
+    background-color: #032154;
+    color: white;
+}
+
+.firstBar-first {
+    width: 50%;
+    display: flex;
+    float: right;
+    justify-content: end;
+
+
+
+
+}
+
+.firstBar-first h2,
+a {
+    padding: 10px;
+}
+
+.firstBar i {
+    color: white;
+    font-size: 22px;
+}
+
+.firstBar-zero {
+    width: 50%;
+    display: flex;
+
+}
+
+.firstBar-zero h2 {
+    padding: 10px;
+}
+
+.secondBar {
+    height: 220px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phoneNo {
+    margin-left: 10px;
+}
+.phoneNo i {
+    color: yellow;
+
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.links:hover {
+    text-decoration: underline;
+    color: yellow;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.mail i {
+    
+    color: yellow;
+}
+.thirdBar {
+    width: 100%;
+    display: flex;
+    
+    height: 55px;
+    background-color: #032154;
+
+}
+.mainNavBar {
+    display: flex;
+    margin-left: 190px;
+    width: 70%;
+
+}
+.nav-links {
+    padding: 10px;
+    list-style: none;
+    
+
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.rightBAr {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+}
+.nav-links:hover  {
+    background-color: #f2db18;
+}
+.rightBAr i {
+    color: white;
+    font-size: 24px;
+}
+.rightBAr i:hover {
+    color: #f2db18;
+}
+.signUp {
+    text-decoration: none;
+    color:white;
+    height: 90%;
+    width: 150px;
+    background-color: #f2db18;
+    font-size: 24px;
+    border-radius: 9px;
+}
+.signUp:hover {
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
